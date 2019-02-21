@@ -27,5 +27,5 @@ Route::group(['middlevare'=>'web'], function () {
     //Route::post('/result_url', 'ResultController@result')->name('result');
     //Route::get('/fail_url', function () {return view('site.fail');});
     //Route::get('/unsubscribe', function () {return view('site.unsubscribe');});
-    Route::get('/teachers/register', 'IndexController@forms')->name('form');
+    Route::get('/teachers/register', 'TeacherController@register')->name('teacher_register');
 });

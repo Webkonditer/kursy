@@ -4,8 +4,66 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "66ca7343889332c2b8ecca11c251430c",
+    "content-hash": "6a696454310051832e979adae726295d",
     "packages": [
+        {
+            "name": "buzz/laravel-google-captcha",
+            "version": "v2.1.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thinhbuzz/laravel-google-captcha.git",
+                "reference": "d6e8efdd11475cd590acf3041976f996e52fb5df"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thinhbuzz/laravel-google-captcha/zipball/d6e8efdd11475cd590acf3041976f996e52fb5df",
+                "reference": "d6e8efdd11475cd590acf3041976f996e52fb5df",
+                "shasum": ""
+            },
+            "require": {
+                "google/recaptcha": "1.*",
+                "illuminate/support": "5.*",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Buzz\\LaravelGoogleCaptcha\\CaptchaServiceProvider"
+                    ],
+                    "aliases": {
+                        "Captcha": "Buzz\\LaravelGoogleCaptcha\\CaptchaFacade"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Buzz\\LaravelGoogleCaptcha\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "ThinhBuzz",
+                    "email": "mr.thinhbuzz@gmail.com",
+                    "homepage": "https://www.facebook.com/thinh.buzz"
+                }
+            ],
+            "description": "Google captcha for laravel 5.*",
+            "homepage": "https://github.com/thinhbuzz/laravel-google-captcha",
+            "keywords": [
+                "captcha",
+                "google-captcha",
+                "laravel",
+                "laravel5",
+                "no-captcha",
+                "recaptcha"
+            ],
+            "time": "2018-04-18T15:56:14+00:00"
+        },
         {
             "name": "dnoegel/php-xdg-base-dir",
             "version": "0.1",
@@ -367,6 +425,53 @@
             "time": "2019-01-10T14:06:47+00:00"
         },
         {
+            "name": "google/recaptcha",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/google/recaptcha.git",
+                "reference": "e7add3be59211482ecdb942288f52da64a35f61a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/google/recaptcha/zipball/e7add3be59211482ecdb942288f52da64a35f61a",
+                "reference": "e7add3be59211482ecdb942288f52da64a35f61a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.2.20|^2.12",
+                "php-coveralls/php-coveralls": "^2.1",
+                "phpunit/phpunit": "^4.8.36|^5.7.27|^6.59|^7"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ReCaptcha\\": "src/ReCaptcha"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Client library for reCAPTCHA, a free service that protects websites from spam and abuse.",
+            "homepage": "https://www.google.com/recaptcha/",
+            "keywords": [
+                "Abuse",
+                "captcha",
+                "recaptcha",
+                "spam"
+            ],
+            "time": "2018-08-05T09:31:53+00:00"
+        },
+        {
             "name": "guzzlehttp/guzzle",
             "version": "6.3.3",
             "source": {
@@ -639,16 +744,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.7.26",
+            "version": "v5.7.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "ca3bc9769969e8af3bd9878a3e0242051c74dae4"
+                "reference": "688fbfa889d43f392825b381ad3981847120fdfa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/ca3bc9769969e8af3bd9878a3e0242051c74dae4",
-                "reference": "ca3bc9769969e8af3bd9878a3e0242051c74dae4",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/688fbfa889d43f392825b381ad3981847120fdfa",
+                "reference": "688fbfa889d43f392825b381ad3981847120fdfa",
                 "shasum": ""
             },
             "require": {
@@ -781,7 +886,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2019-02-12T14:52:21+00:00"
+            "time": "2019-02-19T14:37:47+00:00"
         },
         {
             "name": "laravel/nexmo-notification-channel",
@@ -1288,16 +1393,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v4.2.0",
+            "version": "v4.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "594bcae1fc0bccd3993d2f0d61a018e26ac2865a"
+                "reference": "5221f49a608808c1e4d436df32884cbc1b821ac0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/594bcae1fc0bccd3993d2f0d61a018e26ac2865a",
-                "reference": "594bcae1fc0bccd3993d2f0d61a018e26ac2865a",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/5221f49a608808c1e4d436df32884cbc1b821ac0",
+                "reference": "5221f49a608808c1e4d436df32884cbc1b821ac0",
                 "shasum": ""
             },
             "require": {
@@ -1335,7 +1440,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2019-01-12T16:31:37+00:00"
+            "time": "2019-02-16T20:54:15+00:00"
         },
         {
             "name": "opis/closure",
@@ -4098,16 +4203,16 @@
         },
         {
             "name": "phpunit/php-timer",
-            "version": "2.0.0",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-timer.git",
-                "reference": "8b8454ea6958c3dee38453d3bd571e023108c91f"
+                "reference": "8b389aebe1b8b0578430bda0c7c95a829608e059"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-timer/zipball/8b8454ea6958c3dee38453d3bd571e023108c91f",
-                "reference": "8b8454ea6958c3dee38453d3bd571e023108c91f",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-timer/zipball/8b389aebe1b8b0578430bda0c7c95a829608e059",
+                "reference": "8b389aebe1b8b0578430bda0c7c95a829608e059",
                 "shasum": ""
             },
             "require": {
@@ -4119,7 +4224,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.0-dev"
+                    "dev-master": "2.1-dev"
                 }
             },
             "autoload": {
@@ -4143,7 +4248,7 @@
             "keywords": [
                 "timer"
             ],
-            "time": "2018-02-01T13:07:23+00:00"
+            "time": "2019-02-20T10:12:59+00:00"
         },
         {
             "name": "phpunit/php-token-stream",
@@ -4196,16 +4301,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "7.5.4",
+            "version": "7.5.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "2896657da5fb237bc316bdfc18c2650efeee0dc0"
+                "reference": "09c85e14994df92e5ff1f5ec0b481bdb7d3d3df9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/2896657da5fb237bc316bdfc18c2650efeee0dc0",
-                "reference": "2896657da5fb237bc316bdfc18c2650efeee0dc0",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/09c85e14994df92e5ff1f5ec0b481bdb7d3d3df9",
+                "reference": "09c85e14994df92e5ff1f5ec0b481bdb7d3d3df9",
                 "shasum": ""
             },
             "require": {
@@ -4276,7 +4381,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2019-02-07T14:15:04+00:00"
+            "time": "2019-02-18T09:24:50+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
