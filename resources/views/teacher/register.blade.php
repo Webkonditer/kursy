@@ -166,555 +166,222 @@ s.parentNode.insertBefore( wf, s );
 	</header>
 	<div id="search-items-events-block" style="background-image:url(/img/sp.jpg)" data-0="background-position: 50% -100px" data-700="background-position: 50% 100px">
 	<div class="container box">
-	<div class="row">
-	<div class="col-sm-12">
-		<div class="explore-fun-block" style="width: 100%; text-align: center;">
-			<h3>Страница регистрации преподавателя</h3>
-			<h4>Пожалуйста заполните все графы ниже</h4>
-
-		</div>
-	</div>
-	<div class="col-sm-12">
-
-		<form>
-	  <div class="form-group">
-	    <label for="exampleInputEmail1">Адрес электронной почты</label>
-	    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
-{{--	    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>--}}
-		</div>
-	  <div class="form-group">
-	    <label for="exampleInputPassword1">Пароль</label>
-	    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
-	  </div>
-		<div style="clear:both; margin-bottom:20px; ">
-			<span style="display: inline-block;border-radius: 4px; border: solid 2px #484848; background-color: #f9f9f9; padding: 2px 0 0 2px">
-				{!! app('captcha')->display($attributes = [], $options = ['lang'=> 'ru']) !!}
-			</span>
-		</div>
-		<div class="form-group">
-	    <label for="sp_name">Духовное имя</label>
-	    <input type="text" class="form-control" name="sp_name" id="sp_name" placeholder="">
-		</div>
-		<div class="form-group">
-	    <label for="sp_name">ФИО</label>
-	    <input type="text" class="form-control" name="name" id="name" placeholder="">
-		</div>
-		<div class="form-group">
-				<input type="checkbox" name="" id="optionsRadios1"> &nbsp;&nbsp;Сделать ли ФИО доступным для всех пользователей
-		</div>
-		<div class="form-group">
-	    <label for="sp_name">Номер телефона</label>
-	    <input type="text" class="form-control" name="phone" id="name" placeholder="">
-		</div>
-		<div class="form-group">
-				<input type="checkbox" name="" id="optionsRadios2"> &nbsp;&nbsp;Сделать ли номер телефона доступным для всех пользователей
-		</div>
-		<div class="form-group">
-	    <label for="sp_name">Skype</label>
-	    <input type="text" class="form-control" name="skype" id="name" placeholder="">
-		</div>
-		<div class="form-group">
-				<input type="checkbox" name="" id="optionsRadios2"> &nbsp;&nbsp;Сделать ли Ваш Skype доступным для всех пользователей 
-		</div>
-		<div class="form-group">
-	    <label for="exampleSelect1">Example select</label>
-	    <select class="form-control" id="exampleSelect1">
-	      <option>1</option>
-	      <option>2</option>
-	      <option>3</option>
-	      <option>4</option>
-	      <option>5</option>
-	    </select>
-	  </div>
-	  <div class="form-group">
-	    <label for="exampleSelect2">Example multiple select</label>
-	    <select multiple class="form-control" id="exampleSelect2">
-	      <option>1</option>
-	      <option>2</option>
-	      <option>3</option>
-	      <option>4</option>
-	      <option>5</option>
-	    </select>
-	  </div>
-	  <div class="form-group">
-	    <label for="exampleTextarea">Example textarea</label>
-	    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
-	  </div>
-	  <div class="form-group">
-	    <label for="exampleInputFile">File input</label>
-	    <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
-	    <small id="fileHelp" class="form-text text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
-	  </div>
-	  <fieldset class="form-group">
-	    <legend>Radio buttons</legend>
-	    <div class="form-check">
-	      <label class="form-check-label">
-	        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-	        Option one is this and that&mdash;be sure to include why it's great
-	      </label>
-	    </div>
-	    <div class="form-check">
-	    <label class="form-check-label">
-	        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
-	        Option two can be something else and selecting it will deselect option one
-	      </label>
-	    </div>
-	    <div class="form-check disabled">
-	    <label class="form-check-label">
-	        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
-	        Option three is disabled
-	      </label>
-	    </div>
-	  </fieldset>
-	  <div class="form-check">
-	    <label class="form-check-label">
-	      <input type="checkbox" class="form-check-input">
-	      Check me out
-	    </label>
-	  </div>
-	  <button type="submit" class="btn btn-primary">Submit</button>
-	</form>
-
-
-		<form action="" method="post" accept-charset="UTF-8" class="form-horizontal">
-			<div class="form-group">
-		 <label for="inputEmail" class="col-xs-2 control-label">Адрес email:</label>
-		 <div class="col-xs-10">
-			 <input type="email" class="form-control" id="inputEmail" placeholder="Введите email">
-		 </div>
-	 </div>
-	 <div class="form-group">
-		 <label for="inputPassword" class="col-xs-2 control-label">Пароль:</label>
-		 <div class="col-xs-10">
-			 <input type="password" class="form-control" id="inputPassword" placeholder="Введите пароль">
-		 </div>
-	 </div>
-	 <div class="form-group">
-		 <div class="col-xs-offset-2 col-xs-10">
-			 <div class="checkbox">
-				 <label><input type="checkbox"> Запомнить</label>
-			 </div>
-		 </div>
-	 </div>
-	 <div class="form-group">
-		 <div class="col-xs-offset-2 col-xs-10">
-			 <button type="submit" class="btn btn-default">Войти</button>
-		 </div>
-	 </div>
-			<div class="col-sm-9">
-				<i class="explore-fun-block-icon fa fa-calendar"></i>
-				<select id="listingFormTime" name="time">
-					<option value="">When</option>
-					<option value="1">Today</option>
-					<option value="2">This Week</option>
-					<option value="3">This Month</option>
-				</select>
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="explore-fun-block" style="width: 100%; text-align: center;">
+					<h3>Страница регистрации преподавателя</h3>
+					<h4>Пожалуйста заполните все графы ниже</h4>
+				</div>
 			</div>
-			<div class="col-sm-3">
-			<i class="explore-fun-block-icon fa fa-tags"></i>
-			<select name="category">
-				<option value="">What</option>
-				<option value="church">Church</option>
-				<option value="baptising"> - Baptising</option>
-				<option value="ceremonies"> - Ceremonies</option>
-				<option value="meetings"> - Meetings</option>
-				<option value="conferences">Conferences</option>
-				<option value="colloquium"> - Colloquium</option>
-				<option value="roundtable"> - Roundtable</option>
-				<option value="seminar"> - Seminar</option>
-				<option value="symposium"> - Symposium</option>
-				<option value="workshop"> - Workshop</option>
-				<option value="movies">Movies</option>
-				<option value="drama"> - Drama</option>
-				<option value="family"> - Family</option>
-				<option value="romance"> - Romance</option>
-				<option value="thrillers"> - Thrillers</option>
-				<option value="party">Party</option>
-				<option value="open-entry-parties"> - Open Entry Parties</option>
-				<option value="private-parties"> - Private Parties</option>
-				<option value="product-launches">Product Launches</option>
-				<option value="team-building-events">Team Building Events</option>
-				<option value="theater">Theater</option>
-				<option value="yard-sale">Yard Sale</option>
-			</select>
+			<div class="col-sm-12">
+					<form>
+					  <div class="form-group">
+					    <label for="exampleInputEmail1">Адрес электронной почты</label>
+					    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+				{{--	    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>--}}
+						</div>
+					  <div class="form-group">
+					    <label for="exampleInputPassword1">Пароль</label>
+					    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
+					  </div>
+						<div style="clear:both; margin-bottom:20px; ">
+							<span style="display: inline-block;border-radius: 4px; border: solid 2px #484848; background-color: #f9f9f9; padding: 2px 0 0 2px">
+								{!! app('captcha')->display($attributes = [], $options = ['lang'=> 'ru']) !!}
+							</span>
+						</div>
+						<div class="form-group">
+					    <label for="sp_name">Духовное имя</label>
+					    <input type="text" class="form-control" name="sp_name" id="sp_name" placeholder="">
+						</div>
+						<div class="form-group">
+					    <label for="sp_name">ФИО</label>
+					    <input type="text" class="form-control" name="name" id="name" placeholder="">
+						</div>
+						<div class="form-group">
+								<input type="checkbox" name="" id="optionsRadios1"> &nbsp;&nbsp;Сделать ли ФИО доступным для всех пользователей
+						</div>
+						<div class="form-group">
+					    <label for="sp_name">Номер телефона</label>
+					    <input type="text" class="form-control" name="phone" id="name" placeholder="">
+						</div>
+						<div class="form-group">
+								<input type="checkbox" name="" id="optionsRadios2"> &nbsp;&nbsp;Сделать ли номер телефона доступным для всех пользователей
+						</div>
+						<div class="form-group">
+					    <label for="sp_name">Skype</label>
+					    <input type="text" class="form-control" name="skype" id="name" placeholder="">
+						</div>
+						<div class="form-group">
+								<input type="checkbox" name="" id="optionsRadios2"> &nbsp;&nbsp;Сделать ли Ваш Skype доступным для всех пользователей
+						</div>
+						<div class="form-group">
+					    <label for="exampleInputFile">Фото</label>
+					    <input type="file" style="border-radius: 4px;" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+					  </div>
+						<div class="form-group">
+					    <label for="sp_name">Город проживания</label>
+					    <input type="text" class="form-control" name="sity" id="sity" placeholder="">
+						</div>
+						<div class="form-group">
+					    <label for="sp_name">Год инициации</label>
+					    <input type="text" class="form-control" name="year" id="year" placeholder="">
+						</div>
+						<div class="form-group">
+					    <label for="sp_name">Имя духовного учителя</label>
+					    <input type="text" class="form-control" name="teacher" id="teacher" placeholder="">
+						</div>
+						<div class="form-group">
+					    <label for="exampleTextarea">О себе</label>
+					    <textarea class="form-control" style="border: solid 2px #484848;background-color: rgba(255,255,255,0.7);" name="" id="exampleTextarea" rows="4"></textarea>
+					  </div>
+						<div class="form-group">
+					    <label for="exampleSelect1">Основное служение</label>
+					    <select class="form-control" style="padding:0;" id="exampleSelect1">
+					      <option>--выбор--</option>
+								<option>Санньяси/дикша-гуру</option>
+					      <option>Ответственный за образование в городе или регионе</option>
+					      <option>Преподаватель/наставник/проповедник</option>
+					      <option>Другое</option>
+					    </select>
+					  </div>
+						<div class="form-group">
+					    <label for="sp_name">Наличие дипломов в ИСККОН</label>
+					    <input type="text" class="form-control" name="" id="" placeholder="">
+						</div>
+						<div class="form-group">
+					    <label for="exampleTextarea">Портфолио: Ссылки на видео-записи Youtube (каждая с новой строки)</label>
+					    <textarea class="form-control" style="border: solid 2px #484848;background-color: rgba(255,255,255,0.7);" name="" id="exampleTextarea" rows="4"></textarea>
+					  </div>
+						<div class="form-group">
+					    <label for="exampleInputFile">Наличие письменной рекомендации от регионального секретаря или отдела образования ЦОСКР</label>
+					    <input type="file" style="border-radius: 4px;" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+					  </div>
+						<div class="form-group">
+					    <label for="exampleInputFile">22.	Ваша специализация (не более 7)</label>
+							<p class="tab mb5 mt10">а. Общее образование</p>
+							<div class="tab2">
+								<input type="checkbox" name="" id="">
+								&nbsp;&nbsp;Курсы для начинающих
+							</div>
+							<div class="tab2">
+								<input type="checkbox" name="" id="">
+								&nbsp;&nbsp;Общая философия и практика Сознания Кришны
+							</div>
+							<div class="tab2">
+								<input type="checkbox" name="" id="">
+								&nbsp;&nbsp;Курсы на 1-ю инициацию
+							</div>
+							<div class="tab2">
+								<input type="checkbox" name="" id="">
+								&nbsp;&nbsp;Курсы на 2-ю инициацию
+							</div>
+							<p class="tab mb5 mt10">b.	Углубленное изучение писаний</p>
+							<div class="tab2">
+								<input type="checkbox" name="" id="">
+								&nbsp;&nbsp;ШримадБхагаватам
+							</div>
+							<div class="tab2">
+								<input type="checkbox" name="" id="">
+								&nbsp;&nbsp;ЧайтаньяЧаритамрита
+							</div>
+							<div class="tab2">
+								<input type="checkbox" name="" id="">
+								&nbsp;&nbsp;Другие писания
+							</div>
+							<p class="tab mb5 mt10">c.	Тематические курсы по ангам бхакти</p>
+							<div class="tab2">
+								<input type="checkbox" name="" id="">
+								&nbsp;&nbsp;ИСККОН и Шрила Прабхупада
+							</div>
+							<div class="tab2">
+								<input type="checkbox" name="" id="">
+								&nbsp;&nbsp;Парампара и сампрадайя
+							</div>
+							<div class="tab2">
+								<input type="checkbox" name="" id="">
+								&nbsp;&nbsp;Гуру-таттва
+							</div>
+							<div class="tab2">
+								<input type="checkbox" name="" id="">
+								&nbsp;&nbsp;Взаимоотношения с вайшнавами
+							</div>
+							<div class="tab2">
+								<input type="checkbox" name="" id="">
+								&nbsp;&nbsp;Святое имя
+							</div>
+							<div class="tab2">
+								<input type="checkbox" name="" id="">
+								&nbsp;&nbsp;Изучение Священных писаний
+							</div>
+							<div class="tab2">
+								<input type="checkbox" name="" id="">
+								&nbsp;&nbsp;Поклонение Божествам
+							</div>
+							<div class="tab2">
+								<input type="checkbox" name="" id="">
+								&nbsp;&nbsp;Проживание в дхаме
+							</div>
+							<div class="tab2">
+								<input type="checkbox" name="" id="">
+								&nbsp;&nbsp;Прочие анги преданного служения
+							</div>
+							<p class="tab mb5 mt10">d.	Курсы для лидеров</p>
+							<div class="tab2">
+								<input type="checkbox" name="" id="">
+								&nbsp;&nbsp;Наставничество и забота о преданных
+							</div>
+							<div class="tab2">
+								<input type="checkbox" name="" id="">
+								&nbsp;&nbsp;Методология образования
+							</div>
+							<div class="tab2">
+								<input type="checkbox" name="" id="">
+								&nbsp;&nbsp;Менеджмент и управление
+							</div>
+							<div class="tab2">
+								<input type="checkbox" name="" id="">
+								&nbsp;&nbsp;Проповедь
+							</div>
+							<p class="tab mb5 mt10">e.	Социальное образование</p>
+							<div class="tab2">
+								<input type="checkbox" name="" id="">
+								&nbsp;&nbsp;Семьи
+							</div>
+							<div class="tab2">
+								<input type="checkbox" name="" id="">
+								&nbsp;&nbsp;Для ваишнави
+							</div>
+							<div class="tab2">
+								<input type="checkbox" name="" id="">
+								&nbsp;&nbsp;Для прабху
+							</div>
+							<div class="tab2">
+								<input type="checkbox" name="" id="">
+								&nbsp;&nbsp;Детское
+							</div>
+							<p class="tab mb5 mt10">f.	Культура</p>
+							<div class="tab2">
+								<input type="checkbox" name="" id="">
+								&nbsp;&nbsp;Вайшнавский этикет
+							</div>
+							<div class="tab2">
+								<input type="checkbox" name="" id="">
+								&nbsp;&nbsp;Гуна благости
+							</div>
+						</div>
+						<div class="form-group ">
+							<button class="td-buttom col-sm-2 tab" type="submit" >Зарегистрироваться</button>
+					  </div>
+				</form>
 			</div>
-			<div class="col-sm-3">
-			<i class="explore-fun-block-icon fa fa-map-marker"></i>
-			<select name="location">
-			<option value="">Where</option>
-			<option value="east-coast">East Coast</option><option value="los-angeles-ca">Los Angeles, CA</option><option value="new-york-ny">New York, NY</option><option value="phoenix-az">Phoenix, AZ</option><option value="san-francisco-ca">San Francisco, Ca</option><option value="seattle-wa">Seattle, WA</option><option value="west-coast">West Coast</option>
-			</select>
-			</div>
-			<div class="col-sm-3" style="text-align: center;">
-			<i class="explore-fun-block-icon fa fa-binoculars"></i>
-			<button class="td-buttom" type="submit" style="width: 100%; padding: 16px 15px;"><i class="fa fa-search"></i>Show me the fun!</button>
-			</div>
-		</form>
-	</div>
-	</div>
+		</div>
 	</div>
 	<div id="search-items-events-block-shadow"></div>
 	<!-- Youtube -->
 	</div>
-	<div id="main-wrapper" class="content grey-bg">
-	<div class="container box">
-	<!--===============================-->
-	<!--== Section ====================-->
-	<!--===============================-->
-	<section class="row">
-	<div class="col-sm-12">
-	<div class="row">
-	<div class="col-sm-12">
-	<div class="post-excerpt">
-	<p><div class='section-header'>
-	<h2>Upcoming Events V2</h2>
-	<h4>Pellentesque id felis ut neque malesuada maximus quis id arcu</h4>
-	</div><br />
-	<div class="row upcoming-events-holder" style="margin-bottom: 90px;">
-	<div class="col-sm-12 event-block id-2334">
-	<div class="upcoming-events-v2">
-	<a class="upcoming-events-big-button" href="http://wpeventbuilder.com/demos/demo_one/event/new-zion-phone/"></a>
-	<div class="row">
-	<div class="col-sm-2 upcoming-events-number">
-	<h2>01</h2>
-	</div>
-	<div class="col-sm-5 upcoming-events-title">
-	<div class="upcoming-events-avatar">
-	<img src="http://wpeventbuilder.com/demos/demo_one/wp-content/uploads/bfi_thumb/conference-table-593355_1280-2z1t1uop9d6iidsbtvzz7u.jpg" alt="" />
-	</div>
-	<div class="upcoming-events-title-cont">
-	<h6><a href="http://wpeventbuilder.com/demos/demo_one/event/new-zion-phone/">New Zion Phone</a></h6>
-	<span><i class="fa fa-folder-open"></i>Product Launches</span>
-	</div>
-	</div>
-	<div class="col-sm-5 upcoming-events-details">
-	<div class="full">
-	<i class="fa fa-map-marker"></i>
-	Phoenix Convention Center -
-	Phoenix,
-	United States of America
-	</div>
-	<div class="full">
-	<span><i class="fa fa-phone"></i>+1 (555) 1234 567</span>
-	</div>
-	<div class="full">
-	<i class="fa fa-calendar"></i>
-	<span>11/01/2019 22:00</span>
-	</div>
-	</div>
-	</div>
-	</div>
-	</div>
-	<div class="col-sm-12 event-block id-2320">
-	<div class="upcoming-events-v2">
-	<a class="upcoming-events-big-button" href="http://wpeventbuilder.com/demos/demo_one/event/american-horror-story/"></a>
-	<div class="row">
-	<div class="col-sm-2 upcoming-events-number">
-	<h2>02</h2>
-	</div>
-	<div class="col-sm-5 upcoming-events-title">
-	<div class="upcoming-events-avatar">
-	<img src="http://wpeventbuilder.com/demos/demo_one/wp-content/uploads/bfi_thumb/smartphone-407108_1280-2z1t1u6lw71re6suaf9csq.jpg" alt="" />
-	</div>
-	<div class="upcoming-events-title-cont">
-	<h6><a href="http://wpeventbuilder.com/demos/demo_one/event/american-horror-story/">American Horror Story</a></h6>
-	<span><i class="fa fa-folder-open"></i>Thrillers</span>
-	</div>
-	</div>
-	<div class="col-sm-5 upcoming-events-details">
-	<div class="full">
-	<i class="fa fa-map-marker"></i>
-	AMC Loews Lincoln Square 13 -
-	New York,
-	United States of America
-	</div>
-	<div class="full">
-	<span><i class="fa fa-phone"></i>+1 (555) 1234 567</span>
-	</div>
-	<div class="full">
-	<i class="fa fa-calendar"></i>
-	<span>20/01/2019 20:00</span>
-	</div>
-	</div>
-	</div>
-	</div>
-	</div>
-	<div class="col-sm-12 event-block id-2336">
-	<div class="upcoming-events-v2">
-	<a class="upcoming-events-big-button" href="http://wpeventbuilder.com/demos/demo_one/event/new-tesla-product/"></a>
-	<div class="row">
-	<div class="col-sm-2 upcoming-events-number">
-	<h2>03</h2>
-	</div>
-	<div class="col-sm-5 upcoming-events-title">
-	<div class="upcoming-events-avatar">
-	<img src="http://wpeventbuilder.com/demos/demo_one/wp-content/uploads/bfi_thumb/startup-593341_1280-2z1t1uop9d6iidsbtvzz7u.jpg" alt="" />
-	</div>
-	<div class="upcoming-events-title-cont">
-	<h6><a href="http://wpeventbuilder.com/demos/demo_one/event/new-tesla-product/">New Tesla Product</a></h6>
-	<span><i class="fa fa-folder-open"></i>Product Launches</span>
-	</div>
-	</div>
-	<div class="col-sm-5 upcoming-events-details">
-	<div class="full">
-	<i class="fa fa-map-marker"></i>
-	Moscone Center -
-	San Francisco,
-	United States of America
-	</div>
-	<div class="full">
-	<span><i class="fa fa-phone"></i>+1 (555) 234 567</span>
-	</div>
-	<div class="full">
-	<i class="fa fa-calendar"></i>
-	<span>10/03/2019 10:00</span>
-	</div>
-	</div>
-	</div>
-	</div>
-	</div>
-	<div class="col-sm-12 event-block id-2531">
-	<div class="upcoming-events-v2">
-	<a class="upcoming-events-big-button" href="http://wpeventbuilder.com/demos/demo_one/event/big-hero-6/"></a>
-	<div class="row">
-	<div class="col-sm-2 upcoming-events-number">
-	<h2>04</h2>
-	</div>
-	<div class="col-sm-5 upcoming-events-title">
-	<div class="upcoming-events-avatar">
-	<img src="http://wpeventbuilder.com/demos/demo_one/wp-content/uploads/bfi_thumb/film-reel-438408_1280-2z1t1u6lw71re6suaf9csq.jpg" alt="" />
-	</div>
-	<div class="upcoming-events-title-cont">
-	<h6><a href="http://wpeventbuilder.com/demos/demo_one/event/big-hero-6/">Big Hero 6</a></h6>
-	<span><i class="fa fa-folder-open"></i>Family</span>
-	</div>
-	</div>
-	<div class="col-sm-5 upcoming-events-details">
-	<div class="full">
-	<i class="fa fa-map-marker"></i>
-	Sundance Cinemas -
-	Seattle,
-	United States of America
-	</div>
-	<div class="full">
-	<span><i class="fa fa-phone"></i>+1 (555) 1234 567</span>
-	</div>
-	<div class="full">
-	<i class="fa fa-calendar"></i>
-	<span>17/03/2019 21:00</span>
-	</div>
-	</div>
-	</div>
-	</div>
-	</div>
-	<div class="col-sm-12 event-block id-2450">
-	<div class="upcoming-events-v2">
-	<a class="upcoming-events-big-button" href="http://wpeventbuilder.com/demos/demo_one/event/spanish-and-portuguese-studies-postgraduate-symposium/"></a>
-	<div class="row">
-	<div class="col-sm-2 upcoming-events-number">
-	<h2>05</h2>
-	</div>
-	<div class="col-sm-5 upcoming-events-title">
-	<div class="upcoming-events-avatar">
-	<img src="http://wpeventbuilder.com/demos/demo_one/wp-content/uploads/bfi_thumb/university-418219_1280-2z1t1u231wikm51ywk2p6y.jpg" alt="" />
-	</div>
-	<div class="upcoming-events-title-cont">
-	<h6><a href="http://wpeventbuilder.com/demos/demo_one/event/spanish-and-portuguese-studies-postgraduate-symposium/">Spanish and Portuguese Studies Postgraduate Symposium</a></h6>
-	<span><i class="fa fa-folder-open"></i>Symposium</span>
-	</div>
-	</div>
-	<div class="col-sm-5 upcoming-events-details">
-	<div class="full">
-	<i class="fa fa-map-marker"></i>
-	Seattle University -
-	Seattle,
-	United States of America
-	</div>
-	<div class="full">
-	<span><i class="fa fa-phone"></i>+1 (555) 1234 567</span>
-	</div>
-	<div class="full">
-	<i class="fa fa-calendar"></i>
-	<span>24/03/2019 09:30</span>
-	</div>
-	</div>
-	</div>
-	</div>
-	</div>
-	<div class="col-sm-12 event-block id-2332">
-	<div class="upcoming-events-v2">
-	<a class="upcoming-events-big-button" href="http://wpeventbuilder.com/demos/demo_one/event/the-rose-crown-party/"></a>
-	<div class="row">
-	<div class="col-sm-2 upcoming-events-number">
-	<h2>06</h2>
-	</div>
-	<div class="col-sm-5 upcoming-events-title">
-	<div class="upcoming-events-avatar">
-	<img src="http://wpeventbuilder.com/demos/demo_one/wp-content/uploads/bfi_thumb/french-quarter-557461_1280-2z1t1uop9d6iidsbtvzz7u.jpg" alt="" />
-	</div>
-	<div class="upcoming-events-title-cont">
-	<h6><a href="http://wpeventbuilder.com/demos/demo_one/event/the-rose-crown-party/">The Rose &#038; Crown Party</a></h6>
-	<span><i class="fa fa-folder-open"></i>Open Entry Parties</span>
-	</div>
-	</div>
-	<div class="col-sm-5 upcoming-events-details">
-	<div class="full">
-	<i class="fa fa-map-marker"></i>
-	The Rose &amp; Crown -
-	Phoenix,
-	United States of America
-	</div>
-	<div class="full">
-	<span><i class="fa fa-phone"></i>+1 (555) 1234 567</span>
-	</div>
-	<div class="full">
-	<i class="fa fa-calendar"></i>
-	<span>16/04/2019 21:30</span>
-	</div>
-	</div>
-	</div>
-	</div>
-	</div>
-	<div class="col-sm-12" style="text-align: center; margin-top: 50px;">
-	<a href="http://wpeventbuilder.com/demos/demo_one/all-events/" class="td-buttom"><i class="fa fa-binoculars"></i>View All Events</a>
-	</div>
-	</div>
-	<br />
-	<div class='section-header'>
-	<h2>Price Plans</h2>
-	<h4>Pellentesque id felis ut neque malesuada maximus quis id arcu</h4>
-	</div><br />
-	<div class="row" style="margin-bottom: 50px;">
-	<div class="col-sm-4">
-	<div class="item-block-title price-plan-header">
-	<h4>Basic</h4>
-	<span class="package-price">Free</span>
-	</div>
-	<div class="item-block-content item-image-gallery-block item-image-speakers-block, item-image-partners-block">
-	<ul class="package-capabilities">
-	<li>
-	<span class="package-cap-title">Events</span>
-	<span class="package-cap-value">3</span>
-	</li>
-	<li>
-	<span class="package-cap-title">Publishing</span>
-	<span class="package-cap-value">Admin Moderated</span>
-	</li>
-	<li>
-	<span class="package-cap-title">Cover Image</span>
-	<span class="package-cap-value"><i class="fa fa-check main-color"></i></span>
-	</li>
-	<li>
-	<span class="package-cap-title">Gallery</span>
-	<span class="package-cap-value"><i class="fa fa-check main-color"></i></span>
-	</li>
-	<li>
-	<span class="package-cap-title">Ratings</span>
-	<span class="package-cap-value"><i class="fa fa-times"></i></span>
-	</li>
-	<li>
-	<span class="package-cap-title">Map</span>
-	<span class="package-cap-value"><i class="fa fa-check main-color"></i></span>
-	</li>
-	<li style="border-bottom: none; padding-bottom: 0px; margin-bottom: 0;">
-	<span id="signup-package-1865" class="td-buttom sign-up-button" style="margin-bottom: 0; margin-right: 0;">
-	Sign up & start publishing now
-	</span>
-	</li>
 
-	</ul>
-	</div>
-	</div>
-	<div class="col-sm-4">
-	<div class="item-block-title price-plan-header">
-	<h4>Premium</h4>
-	<span class="package-price">$15</span>
-	</div>
-	<div class="item-block-content item-image-gallery-block item-image-speakers-block, item-image-partners-block">
-	<ul class="package-capabilities">
-	<li>
-	<span class="package-cap-title">Events</span>
-	<span class="package-cap-value">15</span>
-	</li>
-	<li>
-	<span class="package-cap-title">Publishing</span>
-	<span class="package-cap-value">Instant</span>
-	</li>
-	<li>
-	<span class="package-cap-title">Cover Image</span>
-	<span class="package-cap-value"><i class="fa fa-check main-color"></i></span>
-	</li>
-	<li>
-	<span class="package-cap-title">Gallery</span>
-	<span class="package-cap-value"><i class="fa fa-check main-color"></i></span>
-	</li>
-	<li>
-	<span class="package-cap-title">Ratings</span>
-	<span class="package-cap-value"><i class="fa fa-check main-color"></i></span>
-	</li>
-	<li>
-	<span class="package-cap-title">Map</span>
-	<span class="package-cap-value"><i class="fa fa-check main-color"></i></span>
-	</li>
-	<li style="border-bottom: none; padding-bottom: 0px; margin-bottom: 0;">
-	<span id="signup-package-1868" class="td-buttom sign-up-button" style="margin-bottom: 0; margin-right: 0;">
-	Sign up & start publishing now
-	</span>
-	</li>
 
-	</ul>
-	</div>
-	</div>
-	<div class="col-sm-4">
-	<div class="item-block-title price-plan-header">
-	<h4>Deluxe</h4>
-	<span class="package-price">$30</span>
-	</div>
-	<div class="item-block-content item-image-gallery-block item-image-speakers-block, item-image-partners-block">
-	<ul class="package-capabilities">
-	<li>
-	<span class="package-cap-title">Events</span>
-	<span class="package-cap-value">50</span>
-	</li>
-	<li>
-	<span class="package-cap-title">Publishing</span>
-	<span class="package-cap-value">Instant</span>
-	</li>
-	<li>
-	<span class="package-cap-title">Cover Image</span>
-	<span class="package-cap-value"><i class="fa fa-check main-color"></i></span>
-	</li>
-	<li>
-	<span class="package-cap-title">Gallery</span>
-	<span class="package-cap-value"><i class="fa fa-check main-color"></i></span>
-	</li>
-	<li>
-	<span class="package-cap-title">Ratings</span>
-	<span class="package-cap-value"><i class="fa fa-check main-color"></i></span>
-	</li>
-	<li>
-	<span class="package-cap-title">Map</span>
-	<span class="package-cap-value"><i class="fa fa-check main-color"></i></span>
-	</li>
-	<li style="border-bottom: none; padding-bottom: 0px; margin-bottom: 0;">
-	<span id="signup-package-1869" class="td-buttom sign-up-button" style="margin-bottom: 0; margin-right: 0;">
-	Sign up & start publishing now
-	</span>
-	</li>
 
-	</ul>
-	</div>
-	</div>
-	</div>
-	</p>
-	</div>
-	</div>
-	</div>
-	</div>
-	</section>
-	<!--==========-->
-					</div>
-	</div>
 	<footer id="footer">
 		<div class="footer">
 			<div class="container box">
