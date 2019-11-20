@@ -138,6 +138,18 @@
                         <i class="fa fa-newspaper-o" aria-hidden="true"></i> <span>Новости</span>
                     </a>
                 </li>
+
+                <li>
+                    <a href="{{route('admin.pages.index')}}">
+                        <i class="fa fa-wpforms" aria-hidden="true"></i> <span>Страницы</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="{{route('admin.images.index')}}">
+                        <i class="fa fa-file-image-o" aria-hidden="true"></i> <span>Изображения</span>
+                    </a>
+                </li>
 {{--
                 <li>
                     <a href="{{route('admin.administrators')}}">
@@ -225,7 +237,7 @@
         <div class="pull-right hidden-xs">
             <b>Version</b> 1.0
         </div>
-        <strong>Copyright &copy; 2018 <a href="http://webkonditer.ru">webkonditer.ru</a>.</strong> All rights
+        <strong>Copyright &copy; 2019 </strong> All rights
         reserved.
     </footer>
 

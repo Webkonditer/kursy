@@ -49,8 +49,8 @@
   color: #c00;
 }
 .news_img{
-  -webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.55);
-    -moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.55);
+  -webkit-box-shadow: 4px 4px 5px 4px rgba(0,0,0,0.55);
+    -moz-box-shadow: 4px 4px 5px 4px rgba(0,0,0,0.55);
     margin-bottom: 10px;
 }
 .news_dt{

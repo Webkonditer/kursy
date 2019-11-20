@@ -42,5 +42,8 @@ Route::group(['prefix'=>'admin','middleware'=>'auth'], function () {
   //Страницы
     Route::resource('pages', 'PagesController', ['as'=>'admin']);
     Route::get('/pages/{page}/delete', 'PagesController@destroy')->name('admin.page.delete');
-
+  //Изображения
+    Route::get('/images/', 'ImagesController@index')->name('admin.images.index');
+    Route::post('/images/', 'ImagesController@store')->name('admin.images.store');
+    Route::get('/images/{image}/delete', 'ImagesController@destroy')->name('admin.images.delete');
 });
