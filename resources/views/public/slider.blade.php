@@ -43,7 +43,7 @@
              data-hoffset="['0']"
              data-y="['middle']"
              data-voffset="['35','35','40']"
-             data-fontsize="['18','20',26']"
+             data-fontsize="['30','20',26']"
              data-lineheight="['28']"
              data-width="none"
              data-height="none"
@@ -81,6 +81,7 @@
              data-splitin="none"
              data-splitout="none"
              data-responsive_offset="on"
+             data-fontsize="['30','20',26']"
              style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored pl-20 pr-20" href="{{$slider->link}}">Узнать подробнее...</a>
           </div>
         </li>

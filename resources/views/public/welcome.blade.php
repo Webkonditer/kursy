@@ -9,8 +9,23 @@
 						@include('public.slider')
 					</div>
 		    </div>
-		    <div class="col-sm">
-		      Одна из трёх колонок
+		    <div class="col-sm-4">
+					<form>
+						<div class="box">
+						  <div class="container-1">
+						      <input type="search" id="search" placeholder="Поиск..." />
+									<span class="icon"><i class="fa fa-search"></i></span>
+						  </div>
+						</div>
+					</form>
+					<div class="box">
+						<div class="about_main">
+							О ГЛАВНОМ
+						</div>
+						<a class="read_all">
+							Читать все
+						</a>
+					</div>
 		    </div>
 			</div>
   	</div>
