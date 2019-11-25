@@ -1,25 +1,25 @@
 <ul class="bold menuzord-menu menuzord-left menuzord-indented scrollable" style="max-height: 400px;">
     <li >
-        <a class="bol">Ачарья-основатель<span class="indicator"></span></a>
+        <a href="/pages/acharya_osnovatel_bhaktivedanta_svami" class="bol">Ачарья-основатель<span class="indicator"></span></a>
 
     </li>
     <li class=" ">
         <a class="bol">Вероучение<span class="indicator"></span></a>
                                     <ul class="dropdown" style="right: auto; display: none;">
                     <li class=" ">
-        <a href="https://bhaktilata.ru/resources/articles">Теология</a>
+        <a href="/pages/teologiya">Теология</a>
             </li>
     <li class=" ">
-        <a href="https://bhaktilata.ru/resources/news">История</a>
+        <a href="/pages/istoria">История</a>
             </li>
     <li class=" ">
-        <a href="https://bhaktilata.ru/resources/videos">Сампрадайи иконфессии</a>
+        <a href="/pages/sampradayi">Сампрадайи и конфессии</a>
             </li>
     <li class=" ">
-        <a href="https://bhaktilata.ru/resources/documentations">ИСККОН</a>
+        <a href="/pages/iskcon">ИСККОН</a>
             </li>
     <li class=" ">
-        <a href="https://bhaktilata.ru/resources/links">ОСК в России</a>
+        <a href="/pages/osk_v_rossii">ОСК в России</a>
             </li>
 
                 </ul>
@@ -28,57 +28,57 @@
         <a class="bol">ЦОСКР<span class="indicator"></span></a>
                                     <ul class="dropdown" style="right: auto; display: none;">
                     <li class=" ">
-        <a href="https://bhaktilata.ru/online">Руководство</a>
+        <a href="/pages/rukovodstvo">Руководство</a>
             </li>
     <li class=" ">
-        <a href="https://bhaktilata.ru/studying/course-schedule">Структура</a>
+        <a href="/pages/struktura">Структура</a>
             </li>
     <li class=" ">
-        <a href="https://bhaktilata.ru/online-studying/how-to-use-platform">Документы</a>
+        <a href="/pages/dokumenty">Документы</a>
             </li>
                 </ul>
                         </li>
     <li class=" ">
-        <a class="bol">Духовные центры<span class="indicator"></i></span></a>
+        <a href="/pages/duhovnye_zentry" class="bol">Духовные центры<span class="indicator"></i></span></a>
 
                         </li>
     <li class=" ">
-        <a class="bol">Социальноеслужение<span class="indicator"></i></span></a>
+        <a class="bol">Социальное служение<span class="indicator"></i></span></a>
                                     <ul class="dropdown" style="right: 0px; display: none;">
                     <li class=" ">
-        <a href="https://bhaktilata.ru/contacts/contact-us">Доктрина</a>
+        <a href="/pages/doktrina">Доктрина</a>
             </li>
     <li class=" ">
-        <a href="https://bhaktilata.ru/contacts/leaders">Действующие проекты</a>
+        <a href="/pages/deystvuyuchie_proekty">Действующие проекты</a>
             </li>
 
                 </ul>
                         </li>
     <li class=" ">
-        <a class="bol">Новости<span class="indicator"></span></a>
-                                    <ul class="dropdown" style="right: auto; display: none;">
+        <a href="/news/" class="bol">Новости<span class="indicator"></span></a>
+    {{--                                <ul class="dropdown" style="right: auto; display: none;">
                     <li class=" ">
-        <a href="https://bhaktilata.ru/resources/articles">Анонсы</a>
+        <a href="/news/">Анонсы</a>
             </li>
     <li class=" ">
-        <a href="https://bhaktilata.ru/resources/news">В России</a>
+        <a href="/news/">В России</a>
             </li>
     <li class=" ">
-        <a href="https://bhaktilata.ru/resources/videos">В мире</a>
+        <a href="/news/">В мире</a>
             </li>
     <li class=" ">
-        <a href="https://bhaktilata.ru/resources/documentations">Архив</a>
+        <a href="/news/">Архив</a>
             </li>
-          </ul>
+          </ul>--}}
                   </li>
     <li class=" ">
         <a class="bol">Календарь<span class="indicator"></span></a>
                                     <ul class="dropdown" style="right: auto; display: none;">
                     <li class=" ">
-        <a href="https://bhaktilata.ru/resources/articles">Основныедаты</a>
+        <a href="/pages/osnovnye_daty">Основные даты</a>
             </li>
     <li class=" ">
-        <a href="https://bhaktilata.ru/resources/news">Ремайндер</a>
+        <a href="/pages/remainder">Ремайндер</a>
             </li>
                 </ul>
                         </li>
@@ -88,24 +88,24 @@
 <ul class="menuzord-menu menuzord-left menuzord-indented scrollable" style="max-height: 400px;">
 
     <li class=" ">
-        <a>В зеркале СМИ<span class="indicator"></span></a>
+        <a href="/pages/v_zerkale_smi">В зеркале СМИ<span class="indicator"></span></a>
 
                         </li>
     <li class=" ">
-        <a>Экспертному сообществу<span class="indicator"></i></span></a>
+        <a href="/pages/expertnomu_soobchestvu">Экспертному сообществу<span class="indicator"></i></span></a>
 
                         </li>
     <li class=" ">
-        <a>Статьи<span class="indicator"></i></span></a>
+        <a href="/pages/statyi">Статьи<span class="indicator"></i></span></a>
                                     <ul class="dropdown" style="right: 0px; display: none;">
                     <li class=" ">
-        <a href="https://bhaktilata.ru/contacts/contact-us">Эссеистика</a>
+        <a href="/pages/esseistika">Эссеистика</a>
             </li>
     <li class=" ">
-        <a href="https://bhaktilata.ru/contacts/leaders">Публицистика</a>
+        <a href="/pages/publizistika">Публицистика</a>
             </li>
     <li class=" ">
-        <a href="https://bhaktilata.ru/contacts/leaders">Очерки</a>
+        <a href="/pages/ocherki">Очерки</a>
             </li>
                 </ul>
                         </li>
@@ -113,10 +113,10 @@
         <a>Кришнаиты и общество<span class="indicator"></span></a>
                                     <ul class="dropdown" style="right: auto; display: none;">
                     <li class=" ">
-        <a href="https://bhaktilata.ru/resources/articles">Деятели индии об ОСК</a>
+        <a href="/pages/deyateli_indii_ob_osk">Деятели индии об ОСК</a>
             </li>
     <li class=" ">
-        <a href="https://bhaktilata.ru/resources/news">Частые вопросы</a>
+        <a href="/pages/chastye_voprosy">Частые вопросы</a>
             </li>
                 </ul>
                         </li>
@@ -124,21 +124,21 @@
         <a>Медиа<span class="indicator"></span></a>
                                     <ul class="dropdown" style="right: auto; display: none;">
                     <li class=" ">
-        <a href="https://bhaktilata.ru/resources/articles">Фото</a>
+        <a href="/pages/foto">Фото</a>
             </li>
     <li class=" ">
-        <a href="https://bhaktilata.ru/resources/news">Видео</a>
+        <a href="/pages/video">Видео</a>
             </li>
                 <li class=" ">
-    <a href="https://bhaktilata.ru/resources/articles">Галерея</a>
+    <a href="/pages/galereya">Галерея</a>
         </li>
     <li class=" ">
-    <a href="https://bhaktilata.ru/resources/news">Ссылки</a>
+    <a href="/pages/ssylki">Ссылки</a>
         </li>
                 </ul>
                         </li>
     <li class=" ">
-        <a>Контакты<span class="indicator"></span></a>
+        <a href="/pages/kontakty">Контакты<span class="indicator"></span></a>
 
                         </li>
 <li class="scrollable-fix"></li></ul>

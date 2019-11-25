@@ -29,7 +29,8 @@ Route::group(['middleware'=>'web'], function () {
     Route::get('/', 'IndexController@index')->name('main');
     Route::get('/news', 'IndexController@news')->name('news');
     Route::get('/news/{news}', 'IndexController@news_x')->name('news_x');
-    Route::get('/teachers/register', 'TeacherController@register')->name('teacher_register');
+    Route::get('/main', 'IndexController@main')->name('main');
+    Route::get('/pages/{page}', 'IndexController@pages')->name('pages');
 });
 //Админка
 Route::group(['prefix'=>'admin','middleware'=>'auth'], function () {
