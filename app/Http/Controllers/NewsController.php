@@ -41,9 +41,9 @@ class NewsController extends Controller
 
           'image' => 'required|image',
           'title' => 'required|string|max:191',
-          'preview' => 'required|string|max:255',
+          'preview' => 'required|string|max:600',
           'link' => 'required|string|max:255',
-          'content' => 'required|string|max:3000',
+          'content' => 'required|string|max:10000',
           'meta_title' => 'required|string|max:255',
           'meta_description' => 'required|string|max:600',
           'meta_keywords' => 'required|string|max:255',
@@ -102,9 +102,9 @@ class NewsController extends Controller
 
           'image' => 'nullable|image',
           'title' => 'required|string|max:191',
-          'preview' => 'required|string|max:255',
+          'preview' => 'required|string|max:600',
           'link' => 'required|string|max:255',
-          'content' => 'required|string|max:3000',
+          'content' => 'required|string|max:10000',
           'meta_title' => 'required|string|max:255',
           'meta_description' => 'required|string|max:600',
           'meta_keywords' => 'required|string|max:255',
