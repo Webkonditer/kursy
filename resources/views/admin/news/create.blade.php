@@ -80,7 +80,7 @@
                                   name="meta_title"
                                   class="form-control"
                                   id="meta_title"
-                                  value="{{ old('content') }}"
+                                  value="{{ old('meta_title') }}"
                                   placeholder="Введите meta title"
                            />
                        </div>
@@ -90,7 +90,7 @@
                                   name="meta_description"
                                   class="form-control"
                                   id="meta_description"
-                                  value="{{ old('content') }}"
+                                  value="{{ old('meta_description') }}"
                                   placeholder="Введите meta description"
                            />
                        </div>
@@ -101,7 +101,7 @@
                                   name="meta_keywords"
                                   class="form-control"
                                   id="meta_keywords"
-                                  value="{{ old('content') }}"
+                                  value="{{ old('meta_keywords') }}"
                                   placeholder="Введите meta keywords"
                            />
                        </div>
