@@ -17,7 +17,7 @@
 
     <script charset="UTF-8" src="" async></script>
 </head>
-<body class="boxed-layout pb-40 pt-sm-0" >
+<body class="boxed-layout pt-sm-0" >
     {{--{!! $main->asUl() !!}--}}
     {{--{!! $crumbs->asUl() !!}--}}
     <div id="wrapper" class="clearfix">
@@ -42,7 +42,7 @@
                 <div class="header-nav-wrapper navbar-scrolltofixed bg-lightest" style="z-index: 1000;">
                     <div class="container">
                         <nav id="menuzord" class="sm-text-center menuzord default menuzord-responsive shad">
-                            <a class="menuzord-brand pull-left flip xs-pull-center mt-10" href="/" style="border-right: 1px solid black">
+                            <a class="menuzord-brand pull-left flip xs-pull-center mt-5 mb-5" href="/" style="border-right: 1px solid black">
                                 <img src="{{ url('/images/header/home1.png') }}" alt="">
                             </a>
                             @include('public.navigation.menuzord-menu')
@@ -59,8 +59,8 @@
         <!-- end main-content -->
 
         <!-- Footer -->
-        <footer id="footer" class="footer pb-0 ">
-            <div class="container pt-20 pb-40">
+        <footer id="footer" class="footer  ">
+            <div class="container pt-20 pb-20 footer-bg">
               <div class="row pl-10 pr-10 justify-content-md-center">
                 @include('public.navigation.menuzord-menu')
               </div>
