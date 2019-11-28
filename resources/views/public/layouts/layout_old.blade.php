@@ -41,7 +41,7 @@
             <div class="header-nav">
                 <div class="header-nav-wrapper navbar-scrolltofixed bg-lightest" style="z-index: 1000;">
                     <div class="container">
-                        <nav id="menuzord" class="sm-text-center menuzord default menuzord-responsive shad">
+                        <nav id="menuzord" class="menuzord default bg-lightest menuzord-responsive shad">
                             <a class="menuzord-brand pull-left flip xs-pull-center mt-10" href="/" style="border-right: 1px solid black">
                                 <img src="{{ url('/images/header/home1.png') }}" alt="">
                             </a>

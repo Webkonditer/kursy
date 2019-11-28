@@ -1,4 +1,4 @@
-<ul class="bold menuzord-menu menuzord-left menuzord-indented scrollable" style="max-height: 400px;">
+<ul class="bold menuzord-menu  menuzord-indented scrollable" style="max-height: 400px;">
     <li >
         <a href="/pages/acharya_osnovatel_bhaktivedanta_svami" class="bol">Ачарья-основатель<span class="indicator"></span></a>
 
@@ -85,7 +85,7 @@
 
 <li class="scrollable-fix"></li></ul>
 
-<ul class="menuzord-menu menuzord-left menuzord-indented scrollable" style="max-height: 400px;">
+<ul class="bol2 menuzord-menu menuzord-left menuzord-indented scrollable" style="max-height: 400px;">
 
     <li class=" ">
         <a href="/pages/v_zerkale_smi">В зеркале СМИ<span class="indicator"></span></a>
