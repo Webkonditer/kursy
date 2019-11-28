@@ -60,24 +60,26 @@
 
         <!-- Footer -->
         <footer id="footer" class="footer  ">
-            <div class="container pt-20 pb-20 footer-bg">
-              <div class="row pl-10 pr-10 justify-content-md-center">
-                @include('public.navigation.menuzord-menu')
-              </div>
-              <div class="row pl-10 pr-10">
-                <div class="col-sm-6 pl-0">
-                  <img src="/images/header/COSKR1.png" height="70" />
+            <div class="container pt-20 pb-20">
+              <div class=" pl-20 pr-20 footer-bg">
+                <div class="row pl-10 pr-10 justify-content-md-center">
+                  @include('public.navigation.menuzord-menu')
                 </div>
-                <div class="col-sm-6 pr-0 pt-10 text-right">
-                  <img src="/images/header/e01.jpg" height="70" />
+                <div class="row pl-10 pr-10">
+                  <div class="col-sm-6 pl-0">
+                    <img src="/images/header/COSKR1.png" height="70" />
+                  </div>
+                  <div class="col-sm-6 pr-0 pt-10 text-right">
+                    <img src="/images/header/e01.jpg" height="70" />
+                  </div>
                 </div>
-              </div>
-              <div class="row pl-10 pr-10">
-                <div class="col text-left">
-                  <p class="font-12 m-0">Карта сайта</p>
-                  <p class="font-12 m-0">Счетчик посещений</p>
-                  <p class="font-12 m-0">© 2019, ЦОСКР. Все права защищены.</p>
-                  <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+                <div class="row pl-10 pr-10">
+                  <div class="col text-left">
+                    <p class="font-12 m-0">Карта сайта</p>
+                    <p class="font-12 m-0">Счетчик посещений</p>
+                    <p class="font-12 m-0">© 2019, ЦОСКР. Все права защищены.</p>
+                    <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+                  </div>
                 </div>
               </div>
             </div>
