@@ -60,17 +60,17 @@
 
         <!-- Footer -->
         <footer id="footer" class="footer  ">
-            <div class="container pt-20 pb-20">
-              <div class=" pl-20 pr-20 footer-bg">
+            <div class="container pt-20 ">
+              <div class=" pl-20 pr-20 pb-20 footer-bg">
                 <div class="row pl-10 pr-10 justify-content-md-center">
                   @include('public.navigation.menuzord-menu')
                 </div>
                 <div class="row pl-10 pr-10">
                   <div class="col-sm-6 pl-0">
-                    <img src="/images/header/COSKR1.png" height="70" />
+                    <img src="/images/header/COSKR2.png" height="70" />
                   </div>
                   <div class="col-sm-6 pr-0 pt-10 text-right">
-                    <img src="/images/header/e01.jpg" height="70" />
+                    <img src="/images/header/16.png" height="70" />
                   </div>
                 </div>
                 <div class="row pl-10 pr-10">
